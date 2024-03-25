@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T23:52:47.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ykDeRZLkNBcLvLWxlEp4" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T12:39:38.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2_7YA8a8EcfF0M348cAf" version="24.0.8" type="github">
   <diagram name="Page-1" id="0N7xiwsuFp821j7X7Neb">
-    <mxGraphModel dx="704" dy="597" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="557" dy="476" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2DWksUUl9npHA2ZAWtxR-18" value="&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(104, 147, 207); --darkreader-inline-color: #5884c2;&quot;&gt;Thread_xxx_xx&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="186" y="381" width="100" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="e22_IF12hZgXybU9TfZz-1" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(62, 65, 66); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(227, 222, 214, 0.01); --darkreader-inline-color: #2f3232; --darkreader-inline-bgcolor: rgba(131, 127, 121, 0.01);&quot;&gt;Contextual&amp;lt;T&amp;gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="71" y="144" width="271" height="94" as="geometry" />
         </mxCell>
@@ -27,6 +30,26 @@
             <mxPoint x="165.25" y="378" as="sourcePoint" />
             <mxPoint x="175.94095494613123" y="348" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2DWksUUl9npHA2ZAWtxR-5" value="&lt;font style=&quot;--darkreader-inline-color: #c1514e;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#ff3333&quot;&gt;XxxxScope&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;shape=ellipse;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="55" y="474" width="78" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2DWksUUl9npHA2ZAWtxR-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.994;entryY=0.396;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.134;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="2DWksUUl9npHA2ZAWtxR-2" target="2DWksUUl9npHA2ZAWtxR-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="103.4" y="483" as="sourcePoint" />
+            <mxPoint x="51.00000000000002" y="458.67999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DWksUUl9npHA2ZAWtxR-9" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2DWksUUl9npHA2ZAWtxR-6">
+          <mxGeometry x="-0.0493" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DWksUUl9npHA2ZAWtxR-1" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(62, 65, 66); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(227, 222, 214, 0.01); --darkreader-inline-color: #494c4d; --darkreader-inline-bgcolor: rgba(202, 196, 187, 0.01);&quot;&gt;Context&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="151" y="448" width="170" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="2DWksUUl9npHA2ZAWtxR-2" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;--darkreader-inline-color: #c1514e;&quot; data-darkreader-inline-color=&quot;&quot;&gt;getScope&lt;/font&gt;();&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;--darkreader-inline-color: #6893cf;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#7ea6e0&quot;&gt;isActive&lt;/font&gt;();&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;get(&lt;font color=&quot;#000000&quot; style=&quot;--darkreader-inline-color: #191a1b;&quot; data-darkreader-inline-color=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;Contextual&lt;/font&gt;&amp;lt;T&amp;gt;&lt;/font&gt; bean);&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="2DWksUUl9npHA2ZAWtxR-1">
+          <mxGeometry y="29" width="170" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
